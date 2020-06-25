@@ -19,10 +19,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="componentes/barra.js"></script>
     <script src="componentes/tarjeta.js"></script>
+    <script src="componentes/carrusel.js"></script>
+    
 </head>
 <body>
 <div id="App">
     <barra></barra>
+    <carrusel></carrusel>
     <h2 style="background: ">Más populares</h2>
     <hr style="border-color:teal; height: 20px;">
     
