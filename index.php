@@ -46,7 +46,59 @@
         </div>
         
     </div>
+    
+    <!-- Segundo bloque -->
+    <h2 style="background: ">Nueva colección!</h2>
+    <hr style="border-color:teal; height: 20px;">
+    <!-- Publicidad -->
+    <div>
+    <img class="ui medium rounded image" src="img/aerie.jpeg" alt="" style="width:100%">
+    </div>
+    <!-- Fin publicidad -->
+    <hr style="border-color:teal; height: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+        </div>
+    </div>
+    <!-- Fin segundo bloque -->
+    <!-- Tercer bloque -->
+    <!-- Publicidad -->
+    <div>
+    <img class="ui medium rounded image" src="img/ofertas.jpg" alt="" style="width:100%">
+    </div>
+    <!-- Fin publicidad -->
+    <!-- Fin tercer bloque -->
 </div>
+<!-- Footer -->
+
+<!-- Footer -->
     <script>
     new Vue({
         el: "#App"

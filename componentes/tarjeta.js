@@ -4,8 +4,8 @@ Vue.component('tarjeta',{
     <div class="ui card" style="margin-top:20px">
     <div class="ui slide masked reveal image">
         
-        <img src="/img/bata2.jpg" class="visible content">
-        <img src="/img/bata.jpeg" class="hidden content">
+        <img src="img/bata2.jpg" class="visible content">
+        <img src="img/bata.jpeg" class="hidden content">
     </div>
     <div class="content">
         <a class="header">Kimono de verano</a>
