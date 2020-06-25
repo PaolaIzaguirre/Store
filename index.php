@@ -18,14 +18,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="componentes/barra.js"></script>
+    <script src="componentes/tarjeta.js"></script>
 </head>
 <body>
 <div id="App">
     <barra></barra>
+    <h2 style="background: ">Más populares</h2>
+    <hr style="border-color:teal; height: 20px;">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+             <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <tarjeta></tarjeta>
+            </div>
+        </div>
+        
+    </div>
 </div>
     <script>
     new Vue({
         el: "#App"
+    });
+//Ranking de estrellas 
+    $('.ui.rating')
+    .rating({
+        initialRating: 4,
+        maxRating: 5
     });
     </script>
 </body>

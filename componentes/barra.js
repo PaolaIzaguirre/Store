@@ -10,10 +10,12 @@ Vue.component(
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#"> <i class="home icon"></i> Home</a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-item nav-link active" href="#"> <i class="home icon"></i>Inicio</a>
+                <a class="nav-item nav-link" href="#">Nuevo!</a>
+                <a class="nav-item nav-link" href="#">Damas</a>
+                <a class="nav-item nav-link" href="#">Caballeros</a>
+                <a class="nav-item nav-link" href="#">Niños</a>
+                <a class="nav-item nav-link" href="#">Accesorios</a>
                 </div>
             </div>
          </nav>
